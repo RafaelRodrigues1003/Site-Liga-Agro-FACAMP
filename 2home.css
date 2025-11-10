@@ -1,5 +1,5 @@
 #home{
-  background-image: url("fundo-home3.jpg");
+  background-image: url("https://github.com/RafaelRodrigues1003/Site-Liga-Agro-FACAMP/blob/main/fundo-home3.jpg");
   background-size: cover;        /* Faz a imagem cobrir toda a área */
   background-position: center;   /* Centraliza a imagem */
   background-repeat: no-repeat;  /* Evita repetição */
@@ -11,3 +11,4 @@
   color: rgb(0, 0, 0);                  /* Se quiser texto visível */
 
 }
+
