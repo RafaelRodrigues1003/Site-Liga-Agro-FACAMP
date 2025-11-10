@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 90px 10%;
-  background: linear-gradient(180deg, #f8fff8 0%, #f3fff3 100%);
+  padding: 200px 10%;
+  background: #f3fff3;
   color: #1a4d1a;
   gap: 40px;
 }
@@ -43,15 +43,41 @@
 }
 
 .about2-images {
-  flex: 1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about2-images div {
+  position: relative;
+  width: 300px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 2px solid #000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, z-index 0.2s;
 }
 
 .about2-images img {
   width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
   object-fit: cover;
+  transition: transform 0.4s ease;
+  border-radius: 12px;
+}
+
+/* Efeito ao passar o mouse */
+.about2-images div:hover {
+  transform: scale(1.5);
+  z-index: 10; /* fica acima das outras imagens */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.about2-images div:hover img {
+  transform: scale(1.1);
 }
