@@ -24,7 +24,7 @@ sections.forEach(section => observer.observe(section));
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Cultura", "Estudo", "Desenvolvimento", "Sustentabilidade"];
+const textArray = [" Cultura", " Estudo", " Desenvolvimento", " Sustentabilidade"];
 const typingDelay = 150;
 const erasingDelay = 85;
 const newTextDelay = 1800;
@@ -64,4 +64,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
             function toggleMenu() {
+
                 document.querySelector("nav ul").classList.toggle("open")}
