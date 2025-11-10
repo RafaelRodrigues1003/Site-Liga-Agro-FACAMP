@@ -1,0 +1,12 @@
+#home{
+  background-image: url("img/fundo-home3.jpg");
+  background-size: cover;        /* Faz a imagem cobrir toda a área */
+  background-position: center;   /* Centraliza a imagem */
+  background-repeat: no-repeat;  /* Evita repetição */
+  min-height: 100vh;             /* Faz a seção ocupar a tela toda */
+  display: flex;                 /* Mantém o conteúdo centralizado */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);                  /* Se quiser texto visível */
+}

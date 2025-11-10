@@ -1,0 +1,4 @@
+#history {
+    background: linear-gradient(to bottom,
+        var(--secondary), #3b813d, #437f45, white);
+}

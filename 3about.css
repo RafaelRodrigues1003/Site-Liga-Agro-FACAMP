@@ -1,0 +1,99 @@
+#about {
+    background-image: linear-gradient(180deg, #38761D 0%, #f3fff3 100%);
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+main pilares{ 
+     background-color: #000000;
+     border-radius: 10px;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+     margin: 10px;
+     padding: 20px;
+     text-align: center;
+     width: 700px;
+}
+
+#caixa {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.pilares h2 {
+  color: #1e3921;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.pilares p {
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.missao-visao-valores {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0);
+  text-align: left;
+  flex: 1 1 280px;
+  max-width: 340px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0);
+}
+
+.card .icon {
+  font-size: 2.5rem;
+  background-color: #e8f5e9;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* cores específicas */
+.missao .icon {
+  background-color: #e0f2f1;
+}
+
+.visao .icon {
+  background-color: #fff8e1;
+}
+
+.valores .icon {
+  background-color: #fffde7;
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #1b5e20;
+}
+
+.card p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+}
